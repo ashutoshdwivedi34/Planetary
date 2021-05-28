@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APOD</string>
+    <string name="network_error">We are not connected to the internet, showing you the last image we have.</string>
+    <string name="progress_msg_loading">Loading</string>
+    <string name="title_activity_apod">ScrollingActivity</string>
+    <string name="label_date">Published On : \t  %1$s</string>
+    <string name="label_author">Copyright @  %1$s</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">APOD</string>
+</resources>
