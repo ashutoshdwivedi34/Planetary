@@ -8,9 +8,3 @@ It uses below components
 
 
 This project is based on MVVM architectural pattern and written in Kotlin
-
-
-Improvement Areas
-1.data binding could have been used(Time Tradeoff)
-2.Glide could have been used in much better way
-3.Network Helper class could be used more wisely
