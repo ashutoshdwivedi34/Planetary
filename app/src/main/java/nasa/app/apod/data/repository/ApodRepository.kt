@@ -10,7 +10,7 @@ class ApodRepository @Inject constructor(
     private val localDataSource: ApodDao
 ) {
 
-    fun getCharacter(api_key: String) = performGetOperation(
+    fun getAPODData(api_key: String) = performGetOperation(
             databaseQuery = { localDataSource.getLastInsertedApodData() },
             networkCall = { remoteDataSource.getApodData(api_key) },
             saveCallResult = { localDataSource.insert(it) }

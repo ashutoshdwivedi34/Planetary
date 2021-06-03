@@ -23,7 +23,7 @@ class APODViewModel @ViewModelInject constructor(private val repository: ApodRep
     private val api_key = MutableLiveData<String>()
 
     private val _apodData = api_key.switchMap { id ->
-        repository.getCharacter(id)
+        repository.getAPODData(id)
     }
     val apodData: LiveData<Resource<ApodData>> = _apodData
 
