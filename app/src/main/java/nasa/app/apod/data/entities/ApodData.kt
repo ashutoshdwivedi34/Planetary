@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName
 @Entity
 data class ApodData(
     @SerializedName("copyright")
-    val copyright: String,
+    val copyright: String?,
     @PrimaryKey
     @SerializedName("date")
     val date: String,
